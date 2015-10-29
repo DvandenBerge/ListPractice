@@ -12,7 +12,10 @@ import java.util.Set;
 public class Lab19 {
     
     public static void main(String[] args) {
-        challenge4();
+        //challenge1();
+        //challenge2();
+        //challenge3();
+        //challenge4();
     }
     
     public static void challenge1(){
@@ -20,11 +23,24 @@ public class Lab19 {
         hobbyItems.add("Computers");
         hobbyItems.add("Guitars");
         hobbyItems.add("Cooking");
+        
         for(Object h:hobbyItems){
             final String hobbyItem=(String)h;
             System.out.println(hobbyItem);
         }
+        System.out.println("");
+        
+        hobbyItems.add("Biking");
+        hobbyItems.add("Running");
+        
+        for(Object h:hobbyItems){
+            final String hobbyItem=(String)h;
+            System.out.println(h);
+        }
+        System.out.println("");
+        
         hobbyItems.remove("Cooking");
+        
         for(Object h:hobbyItems){
             final String hobbyItem=(String)h;
             System.out.println(hobbyItem);
