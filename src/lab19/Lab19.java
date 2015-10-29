@@ -35,7 +35,7 @@ public class Lab19 {
         
         for(Object h:hobbyItems){
             final String hobbyItem=(String)h;
-            System.out.println(h);
+            System.out.println(hobbyItem);
         }
         System.out.println("");
         
