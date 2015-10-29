@@ -14,7 +14,7 @@ public class Lab19 {
     public static void main(String[] args) {
         //challenge1();
         //challenge2();
-        //challenge3();
+        challenge3();
         //challenge4();
     }
     
@@ -63,6 +63,7 @@ public class Lab19 {
         things.add(new Dog("Rover",12));
         things.add(new Employee("Bob","Roberts","222-22-2222"));
         things.add(new Dog("Husky",45));
+        things.add(new Employee("Joe","Josephs","333-33-3333"));
         //Using the toString method from the superclass, in this case, Object, you can
         //output meaningful info for each object in the list
         for(Object o:things){
@@ -78,6 +79,7 @@ public class Lab19 {
         //Duplicate
         employees.add(new Employee("Bob","Roberts","222-22-2222"));
         
+        //Duplicate is removed in loop
         for(Employee e:employees){
             System.out.println(e.toString());
         }
